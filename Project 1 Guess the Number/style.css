@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+body {
+    width: 100%;
+    background: linear-gradient(to left , #5f2c82, #49a09d);
+}
+nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn {
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+    background-color: white;
+    border: white;
+    color: black;
+    box-shadow: 0px 10px 20px -15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.my-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100%;
+    background-color: white;
+    height: 0.5rem;
+}
+
+#my-num {
+    text-align: center;
+    font-size: 3rem;
+    width: 30rem;
+    height: 6rem;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 10rem;
+    padding: 2rem;
+    width: auto;
+    height: 20rem;
+}
+
+#left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#guess {
+    color: white;
+    width: 12rem;
+    height: 4rem;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+#right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    padding-left: 10rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+#gamelost {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
